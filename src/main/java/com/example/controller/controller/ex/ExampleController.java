@@ -27,7 +27,7 @@ public class ExampleController {
     @GetMapping("ex02")
     public String ex02(){
         System.out.println("한동석");
-        return "/ex/ex02";
+        return "ex/ex02";
     }
 
     @GetMapping("ex03")
